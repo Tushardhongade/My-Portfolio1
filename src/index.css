@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Anton+SC&family=Caveat:wght@400..700&family=Great+Vibes&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Sacramento&family=Satisfy&family=Varela+Round&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+.Heading {
+  font-family: "Great Vibes", sans-serif;
+}
+.navbar {
+  z-index: 50;
+}
+.logo {
+  font-family: "Sacramento", sans-serif;
+}
+
+* {
+  font-family: "Ubuntu";
+}
+*::selection {
+  color: lightseagreen;
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Add to your global CSS */
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+/* Smooth transitions */
+* {
+  transition: all 0.3s ease;
+}
