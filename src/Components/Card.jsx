@@ -33,8 +33,7 @@ const Card = () => {
                   Institute
                 </h4>
                 <p className="text-gray-300 text-sm sm:text-base leading-relaxed">
-                  Dr D Y Patil Institute of Management And Entrepreneur
-                  Development
+                 Dr. D. Y. Patil Institute of Management And Entrepreneur Development (MCA), Varale, Pune
                 </p>
               </div>
 
