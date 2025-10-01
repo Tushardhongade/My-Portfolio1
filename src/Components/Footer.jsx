@@ -22,12 +22,12 @@ const Footer = () => {
   const socialLinks = [
     {
       icon: FaGithub,
-      href: "https://github.com/yourusername",
+      href: "https://github.com/Tushardhongade",
       name: "GitHub",
     },
     {
       icon: FaLinkedin,
-      href: "https://www.linkedin.com/in/yourusername",
+      href: "https://www.linkedin.com/in/tushardhongade",
       name: "LinkedIn",
     },
     {
@@ -37,7 +37,7 @@ const Footer = () => {
     },
     {
       icon: IoLogoInstagram,
-      href: "https://www.instagram.com/yourusername",
+      href: "https://www.instagram.com/devtushar9",
       name: "Instagram",
     },
     {
@@ -94,7 +94,7 @@ const Footer = () => {
               </div>
               <div className="flex items-center gap-3 text-gray-400 hover:text-[#18a995] transition-colors duration-200">
                 <FaPhone className="text-sm" />
-                <span className="text-sm">+91 1234567890</span>
+                <span className="text-sm">+91 8080881728</span>
               </div>
               <div className="flex items-center gap-3 text-gray-400 hover:text-[#18a995] transition-colors duration-200">
                 <FaMapMarkerAlt className="text-sm" />
