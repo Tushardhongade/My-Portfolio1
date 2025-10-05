@@ -13,6 +13,7 @@ import {
   FaReact,
   FaNodeJs,
   FaDatabase,
+  IoLogoHtml5 
 } from "react-icons/fa";
 import { SiMongodb, SiExpress, SiTailwindcss } from "react-icons/si";
 
@@ -44,7 +45,7 @@ const ProjectCard = () => {
         "A Simple Toggle-theme button that can switch theme from dark to light and light to dark .",
       image: proj,
       technologies: [
-        { icon: FaReact, name: "React", color: "text-[#18a995]" },
+        { icon: IoLogoHtml5, name: "React", color: "text-[#18a995]" },
         { icon: FaNodeJs, name: "Node.js", color: "text-[#18a995]" },
         { icon: SiExpress, name: "Express", color: "text-[#18a995]" },
         { icon: SiMongodb, name: "MongoDB", color: "text-[#18a995]" },
