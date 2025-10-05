@@ -1,7 +1,7 @@
 import React from "react";
 import contact from "./Images/contact.png";
-import { FaSquareFacebook, FaLinkedin } from "react-icons/fa6";
-import { IoLogoInstagram } from "react-icons/io";
+import { FaSquareFacebook, FaLinkedin, FaTelegram } from "react-icons/fa6";
+import { IoLogoInstagram, IoLogoYoutube } from "react-icons/io";
 import {
   FaMapMarkerAlt,
   FaFileDownload,
@@ -26,20 +26,12 @@ const Contact = () => {
       href: "https://www.instagram.com/devtushar9",
       name: "Instagram",
     },
+    {
+      icon: FaTelegram,
+      href: "https://t.me/",
+      name: "Telegram",
+    },
   ];
-
-  const handleImageError = (e) => {
-    e.target.style.display = 'none';
-    e.target.parentElement.innerHTML = `
-      <div class="w-full h-64 sm:h-80 bg-zinc-800 flex items-center justify-center text-white rounded-xl">
-        <div class="text-center">
-          <FaMapMarkerAlt class="text-3xl text-[#18a995] mx-auto mb-2" />
-          <p>Map preview not available</p>
-          <p class="text-sm text-gray-400">Click to view on Google Maps</p>
-        </div>
-      </div>
-    `;
-  };
 
   return (
     <section
@@ -52,6 +44,9 @@ const Contact = () => {
           <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-4">
             Get In <span className="text-[#18a995]">Touch</span>
           </h2>
+          <p className="text-gray-400 text-lg sm:text-xl max-w-2xl mx-auto">
+            Let's work together to bring your ideas to life
+          </p>
         </div>
 
         {/* Contact & Social Section */}
@@ -62,9 +57,8 @@ const Contact = () => {
               <div className="w-full h-full bg-[#000] bg-opacity-70 rounded-full overflow-hidden border-4 border-[#18a995]/30">
                 <img
                   src={contact}
-                  alt="Tushar Dhongade - Contact"
+                  alt="Contact"
                   className="w-full h-full object-cover scale-110"
-                  loading="lazy"
                 />
               </div>
               {/* Animated Rings */}
@@ -77,11 +71,11 @@ const Contact = () => {
             <div className="bg-[#000] bg-opacity-70 backdrop-blur-sm rounded-2xl p-8 sm:p-10 lg:p-12 border border-zinc-800 shadow-xl max-w-lg w-full">
               <div className="text-center lg:text-left">
                 <h3 className="text-3xl sm:text-4xl font-bold text-white mb-6">
-                  Let&apos;s Connect
+                  Let's Connect
                 </h3>
 
                 <p className="text-gray-300 text-lg mb-8 leading-relaxed">
-                  I&apos;m available on social media. Message me and I&apos;ll reply
+                  I'm available on social media. Message me and I'll reply
                   within 24 hours. I can help you with React, frontend
                   development, and creating amazing web experiences.
                 </p>
@@ -111,7 +105,7 @@ const Contact = () => {
                         target="_blank"
                         rel="noopener noreferrer"
                         className="group bg-zinc-800 hover:bg-[#18a995] p-3 rounded-xl transition-all duration-300 transform hover:scale-110 hover:shadow-lg hover:shadow-[#18a995]/20"
-                        aria-label={`Visit ${social.name} profile`}
+                        aria-label={social.name}
                       >
                         <social.icon className="text-2xl text-[#18a995] group-hover:text-white transition-colors duration-300" />
                       </a>
@@ -125,7 +119,6 @@ const Contact = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-3 bg-[#18a995] hover:bg-teal-600 text-white font-semibold px-8 py-4 rounded-xl transition-all duration-300 transform hover:scale-105 hover:shadow-lg hover:shadow-[#18a995]/30"
-                  aria-label="Download Tushar Dhongade Resume"
                 >
                   <FaFileDownload className="text-lg" />
                   See My Resume
@@ -172,7 +165,6 @@ const Contact = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-3 mt-8 border-2 border-[#18a995] text-[#18a995] hover:bg-[#18a995] hover:text-white font-semibold px-8 py-4 rounded-xl transition-all duration-300 transform hover:scale-105"
-                  aria-label="View location on Google Maps"
                 >
                   <FaMapMarkerAlt className="text-lg" />
                   View on Google Maps
@@ -191,14 +183,11 @@ const Contact = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                     className="block cursor-pointer group"
-                    aria-label="Interactive map of Talegaon Dabhade location"
                   >
                     <img
                       src="https://www.weather-forecast.com/locationmaps/Talegaon-Dabhade.10.gif"
                       alt="Talegaon Dabhade Location Map"
                       className="w-full h-64 sm:h-80 object-cover transition-transform duration-500 group-hover:scale-110"
-                      loading="lazy"
-                      onError={handleImageError}
                     />
                     <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
                       <div className="bg-[#18a995] text-white px-4 py-2 rounded-lg font-semibold transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">
