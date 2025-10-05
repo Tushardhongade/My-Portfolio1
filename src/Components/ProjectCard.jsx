@@ -13,7 +13,6 @@ import {
   FaReact,
   FaNodeJs,
   FaDatabase,
-  
 } from "react-icons/fa";
 import { SiMongodb, SiExpress, SiTailwindcss } from "react-icons/si";
 import { IoLogoHtml5, IoLogoCss3 } from "react-icons/io5";
@@ -43,7 +42,7 @@ const ProjectCard = () => {
       id: 2,
       title: "Toggle-theme",
       description:
-        "A Simple Toggle-theme button that can switch theme from dark to light and light to dark .",
+        "A Simple Toggle-theme button that can switch theme from dark to light and light to dark.",
       image: proj,
       technologies: [
         { icon: IoLogoHtml5, name: "HTML", color: "text-[#18a995]" },
@@ -51,9 +50,7 @@ const ProjectCard = () => {
       ],
       liveLink: "https://toggle-theme-mu.vercel.app/",
       githubLink: "https://github.com/Tushardhongade/Toggle-Theme.git",
-      features: [
-        "Switch Button"
-      ],
+      features: ["Switch Button"],
     },
   ];
 
@@ -184,7 +181,7 @@ const ProjectCard = () => {
         <Button
           variant="outlined"
           className="border-[#18a995] text-[#18a995] hover:bg-[#18a995] hover:text-white px-8 py-3 text-lg font-medium transition-all duration-300 hover:scale-105"
-          href="https://github.com/yourusername"
+          href="https://github.com/Tushardhongade"
           target="_blank"
           rel="noopener noreferrer"
         >
