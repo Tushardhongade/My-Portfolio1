@@ -121,6 +121,7 @@ const Contact = () => {
             </div>
           </div>
         </div>
+        
 
         {/* Address & Map Section */}
         <div className="flex flex-col lg:flex-row justify-between items-center gap-12 lg:gap-8">
