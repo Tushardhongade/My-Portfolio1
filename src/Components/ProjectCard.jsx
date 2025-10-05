@@ -46,10 +46,8 @@ const ProjectCard = () => {
         "A Simple Toggle-theme button that can switch theme from dark to light and light to dark .",
       image: proj,
       technologies: [
-        { icon: IoLogoHtml5, name: "React", color: "text-[#18a995]" },
-        { icon: FaNodeJs, name: "Node.js", color: "text-[#18a995]" },
-        { icon: SiExpress, name: "Express", color: "text-[#18a995]" },
-        { icon: SiMongodb, name: "MongoDB", color: "text-[#18a995]" },
+        { icon: IoLogoHtml5, name: "HTML", color: "text-[#18a995]" },
+        { icon: IoLogoCss3, name: "CSS", color: "text-[#18a995]" },
       ],
       liveLink: "https://toggle-theme-mu.vercel.app/",
       githubLink: "https://github.com/Tushardhongade/Toggle-Theme.git",
