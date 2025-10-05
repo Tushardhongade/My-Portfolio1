@@ -1,5 +1,6 @@
 import React from "react";
-import proj from "./Images/proj1.png";
+import proj1 from "./Images/proj1.png";
+import proj2 from "./Images/proj2.png";
 
 import Card from "@mui/material/Card";
 import CardActions from "@mui/material/CardActions";
@@ -18,7 +19,7 @@ const ProjectCard = () => {
       title: "Master Portfolio",
       description:
         "Modern portfolio with React & Tailwind CSS featuring smooth animations.",
-      image: proj,
+      image: proj1,
       technologies: [
         { icon: FaReact, name: "React", color: "text-blue-400" },
         { icon: SiTailwindcss, name: "Tailwind", color: "text-cyan-400" },
@@ -30,7 +31,7 @@ const ProjectCard = () => {
       id: 2,
       title: "Toggle Theme",
       description: "Sleek theme switcher with smooth dark/light transitions.",
-      image: proj,
+      image: proj2,
       technologies: [
         { icon: IoLogoHtml5, name: "HTML", color: "text-orange-500" },
         { icon: IoLogoCss3, name: "CSS", color: "text-blue-500" },
