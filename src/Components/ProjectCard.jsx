@@ -22,14 +22,14 @@ const ProjectCard = () => {
       id: 1,
       title: "Master Portfolio",
       description:
-        "A modern, responsive portfolio website built with React.js and Tailwind CSS featuring smooth animations and dark mode.",
+        "A modern, responsive portfolio website built with React.js and Tailwind CSS featuring smooth animations.",
       image: proj,
       technologies: [
         { icon: FaReact, name: "React", color: "text-[#18a995]" },
         { icon: SiTailwindcss, name: "Tailwind", color: "text-[#18a995]" },
       ],
-      liveLink: "https://yourportfolio.com",
-      githubLink: "https://github.com/yourusername/portfolio",
+      liveLink: "https://my-portfolio1-gamma.vercel.app/",
+      githubLink: "https://github.com/Tushardhongade/My-Portfolio1.git",
       features: [
         "Responsive Design",
         "Dark Mode",
@@ -39,9 +39,9 @@ const ProjectCard = () => {
     },
     {
       id: 2,
-      title: "E-Commerce Platform",
+      title: "Toggle-theme",
       description:
-        "Full-stack e-commerce solution with user authentication, payment integration, and admin dashboard.",
+        "A Simple Toggle-theme button that can switch theme from dark to light and light to dark .",
       image: proj,
       technologies: [
         { icon: FaReact, name: "React", color: "text-[#18a995]" },
@@ -49,8 +49,8 @@ const ProjectCard = () => {
         { icon: SiExpress, name: "Express", color: "text-[#18a995]" },
         { icon: SiMongodb, name: "MongoDB", color: "text-[#18a995]" },
       ],
-      liveLink: "https://yourapp.com",
-      githubLink: "https://github.com/yourusername/ecommerce",
+      liveLink: "https://toggle-theme-mu.vercel.app/",
+      githubLink: "https://github.com/Tushardhongade/Toggle-Theme.git",
       features: [
         "User Auth",
         "Payment Gateway",
@@ -58,27 +58,7 @@ const ProjectCard = () => {
         "Order Tracking",
       ],
     },
-    {
-      id: 3,
-      title: "Task Management App",
-      description:
-        "Productivity application with real-time updates, drag-drop functionality, and team collaboration features.",
-      image: proj,
-      technologies: [
-        { icon: FaReact, name: "React", color: "text-[#18a995]" },
-        { icon: FaNodeJs, name: "Node.js", color: "text-[#18a995]" },
-        { icon: FaDatabase, name: "PostgreSQL", color: "text-[#18a995]" },
-      ],
-      liveLink: "https://yourtaskapp.com",
-      githubLink: "https://github.com/yourusername/taskapp",
-      features: [
-        "Real-time Sync",
-        "Drag & Drop",
-        "Team Collaboration",
-        "Analytics",
-      ],
-    },
-  ];
+   
 
   return (
     <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 lg:py-12">
