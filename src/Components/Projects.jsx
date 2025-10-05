@@ -56,12 +56,7 @@ const Projects = () => {
               <div className="text-3xl font-bold text-blue-400 mb-2">5+</div>
               <div className="text-gray-400">Technologies</div>
             </div>
-            <div className="text-center">
-              <div className="text-3xl font-bold text-purple-400 mb-2">
-                100%
-              </div>
-              <div className="text-gray-400">Client Satisfaction</div>
-            </div>
+            
           </div>
         </div>
 
