@@ -23,7 +23,7 @@ const Contact = () => {
     },
     {
       icon: IoLogoInstagram,
-      href: "https://www.instagram.com/tusha_r9__7___3",
+      href: "https://www.instagram.com/devtushar9",
       name: "Instagram",
     },
  
