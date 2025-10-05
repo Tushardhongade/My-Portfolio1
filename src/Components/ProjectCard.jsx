@@ -16,7 +16,7 @@ import {
   
 } from "react-icons/fa";
 import { SiMongodb, SiExpress, SiTailwindcss } from "react-icons/si";
-import { IoLogoHtml5 } from "react-icons/io5";
+import { IoLogoHtml5, IoLogoCss3 } from "react-icons/io5";
 
 const ProjectCard = () => {
   const projects = [
