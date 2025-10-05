@@ -52,10 +52,7 @@ const ProjectCard = () => {
       liveLink: "https://toggle-theme-mu.vercel.app/",
       githubLink: "https://github.com/Tushardhongade/Toggle-Theme.git",
       features: [
-        "User Auth",
-        "Payment Gateway",
-        "Admin Panel",
-        "Order Tracking",
+        "Switch Button"
       ],
     },
    
