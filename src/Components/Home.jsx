@@ -75,7 +75,7 @@ function Home() {
               {/* Content Section */}
               <div className="w-full lg:w-[50%] flex flex-col items-center lg:items-start justify-start text-center lg:text-left">
                 <h3 className="text-2xl sm:text-3xl lg:text-4xl font-normal mb-6 lg:mb-0">
-                  Frontend Developer
+                  Full Stack Developer
                 </h3>
 
                 {/* Tech Icons */}
