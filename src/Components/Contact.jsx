@@ -40,9 +40,7 @@ const Contact = () => {
           <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-4">
             Get In <span className="text-[#18a995]">Touch</span>
           </h2>
-          <p className="text-gray-400 text-lg sm:text-xl max-w-2xl mx-auto">
-            Let's work together to bring your ideas to life
-          </p>
+        
         </div>
 
         {/* Contact & Social Section */}
