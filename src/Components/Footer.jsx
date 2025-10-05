@@ -144,12 +144,6 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="border-t border-zinc-800 mt-8 lg:mt-12 pt-8">
           <div className="flex flex-col lg:flex-row justify-between items-center gap-4">
-            {/* Copyright */}
-            <div className="flex items-center gap-2 text-gray-400 text-sm">
-              <span>
-                © {currentYear} Tushar G. Dhongade. All rights reserved.
-              </span>
-            </div>
 
             {/* Made With Love */}
             <div className="flex items-center gap-2 text-gray-400 text-sm">
