@@ -1,6 +1,6 @@
 import React from "react";
 import contact from "./Images/contact.png";
-import { FaSquareFacebook, FaLinkedin, FaTelegram } from "react-icons/fa6";
+import { FaSquareFacebook, FaLinkedin} from "react-icons/fa6";
 import { IoLogoInstagram, IoLogoYoutube } from "react-icons/io";
 import {
   FaMapMarkerAlt,
@@ -13,24 +13,20 @@ const Contact = () => {
   const socialLinks = [
     {
       icon: FaSquareFacebook,
-      href: "https://www.facebook.com/",
+      href: "https://www.facebook.com/people/Tushar-Dhongade/pfbid02v1UCLosa2QLbbEA2e67DAbpoaysCrqQxe99FCSK4SGsUeYJdtXWpHhpEfF3Zy2Xel/",
       name: "Facebook",
     },
     {
       icon: FaLinkedin,
-      href: "https://www.linkedin.com/",
+      href: "https://www.linkedin.com/in/tushardhongade/",
       name: "LinkedIn",
     },
     {
       icon: IoLogoInstagram,
-      href: "https://www.instagram.com/",
+      href: "https://www.instagram.com/tusha_r9__7___3",
       name: "Instagram",
     },
-    {
-      icon: FaTelegram,
-      href: "https://t.me/",
-      name: "Telegram",
-    },
+ 
   ];
 
   return (
