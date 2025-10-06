@@ -53,8 +53,7 @@ const ProjectCard = () => {
         { icon: FaNodeJs, name: "Node", color: "text-green-400" },
       ],
       liveLink: "https://mern-authentication-frontend-nu.vercel.app/",
-      githubLink:
-        "https://github.com/Tushardhongade/MERN-Authentication-frontend.git",
+      githubLink: "https://github.com/Tushardhongade/MERN-Authentication-frontend.git",
     },
   ];
 
@@ -77,13 +76,13 @@ const ProjectCard = () => {
             key={project.id}
             className="group bg-[#070708] rounded-xl overflow-hidden border border-zinc-800 hover:border-[#18a995] transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-[#18a995]/10"
             sx={{
-              backgroundColor: "#070708",
-              borderColor: "rgb(39 39 42)",
-              "&:hover": {
-                borderColor: "#18a995",
-                transform: "scale(1.05)",
-                boxShadow: "0 10px 25px rgba(24, 169, 149, 0.1)",
-              },
+              backgroundColor: '#070708',
+              borderColor: 'rgb(39 39 42)',
+              '&:hover': {
+                borderColor: '#18a995',
+                transform: 'scale(1.05)',
+                boxShadow: '0 10px 25px rgba(24, 169, 149, 0.1)'
+              }
             }}
           >
             {/* Project Image */}
@@ -112,11 +111,7 @@ const ProjectCard = () => {
               <Typography
                 variant="h6"
                 className="text-white font-bold text-lg mb-2 line-clamp-1"
-                sx={{
-                  color: "white",
-                  fontWeight: "bold",
-                  fontSize: "1.125rem",
-                }}
+                sx={{ color: 'white', fontWeight: 'bold', fontSize: '1.125rem' }}
               >
                 {project.title}
               </Typography>
@@ -125,7 +120,7 @@ const ProjectCard = () => {
               <Typography
                 variant="body2"
                 className="text-gray-300 text-sm mb-3 line-clamp-2 leading-relaxed"
-                sx={{ color: "rgb(209 213 219)", fontSize: "0.875rem" }}
+                sx={{ color: 'rgb(209 213 219)', fontSize: '0.875rem' }}
               >
                 {project.description}
               </Typography>
@@ -152,14 +147,14 @@ const ProjectCard = () => {
                 rel="noopener noreferrer"
                 sx={{
                   flex: 1,
-                  backgroundColor: "rgb(24 24 27)",
-                  color: "rgb(209 213 219)",
-                  border: "1px solid rgb(39 39 42)",
-                  fontSize: "0.75rem",
-                  "&:hover": {
-                    backgroundColor: "rgb(39 39 42)",
-                    borderColor: "#18a995",
-                  },
+                  backgroundColor: 'rgb(24 24 27)',
+                  color: 'rgb(209 213 219)',
+                  border: '1px solid rgb(39 39 42)',
+                  fontSize: '0.75rem',
+                  '&:hover': {
+                    backgroundColor: 'rgb(39 39 42)',
+                    borderColor: '#18a995'
+                  }
                 }}
                 startIcon={<FaGithub />}
               >
@@ -172,12 +167,12 @@ const ProjectCard = () => {
                 rel="noopener noreferrer"
                 sx={{
                   flex: 1,
-                  backgroundColor: "#18a995",
-                  color: "white",
-                  fontSize: "0.75rem",
-                  "&:hover": {
-                    backgroundColor: "#138a7a",
-                  },
+                  backgroundColor: '#18a995',
+                  color: 'white',
+                  fontSize: '0.75rem',
+                  '&:hover': {
+                    backgroundColor: '#138a7a'
+                  }
                 }}
                 startIcon={<FaExternalLinkAlt />}
               >
@@ -193,16 +188,16 @@ const ProjectCard = () => {
         <Button
           variant="outlined"
           sx={{
-            borderColor: "#18a995",
-            color: "#18a995",
-            padding: "8px 24px",
-            fontSize: "0.875rem",
-            fontWeight: "500",
-            "&:hover": {
-              backgroundColor: "#18a995",
-              color: "white",
-              borderColor: "#18a995",
-            },
+            borderColor: '#18a995',
+            color: '#18a995',
+            padding: '8px 24px',
+            fontSize: '0.875rem',
+            fontWeight: '500',
+            '&:hover': {
+              backgroundColor: '#18a995',
+              color: 'white',
+              borderColor: '#18a995'
+            }
           }}
           href="https://github.com/Tushardhongade"
           target="_blank"
