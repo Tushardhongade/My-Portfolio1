@@ -48,7 +48,7 @@ const Projects = () => {
           {/* Stats Bar */}
           <div className="flex flex-wrap justify-center gap-6 sm:gap-12 mb-8">
             <div className="text-center">
-              <div className="text-3xl font-bold text-[#18a995] mb-2">2</div>
+              <div className="text-3xl font-bold text-[#18a995] mb-2">2+</div>
               <div className="text-gray-400">Projects Completed</div>
             </div>
             <div className="text-center">
