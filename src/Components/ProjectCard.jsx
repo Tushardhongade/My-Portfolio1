@@ -48,7 +48,7 @@ const ProjectCard = () => {
       technologies: [
         { icon: FaReact, name: "React", color: "text-blue-400" },
         { icon: SiTailwindcss, name: "Tailwind", color: "text-cyan-400" },
-        { icon: SiExpress, name: "Express", color: "text-green-500" },
+        { icon: SiExpress, name: "Express", color: "text-black" },
         { icon: SiMongodb, name: "MongoDB", color: "text-green-600" },
         { icon: FaNodeJs, name: "Node", color: "text-green-400" },
       ],
