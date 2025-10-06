@@ -48,13 +48,13 @@ const ProjectCard = () => {
       technologies: [
         { icon: FaReact, name: "React", color: "text-blue-400" },
         { icon: SiTailwindcss, name: "Tailwind", color: "text-cyan-400" },
-        { icon: SiExpress, name: "Express", color: "text-blue-400" },
-        { icon: SiMongodb, name: "MongoDB", color: "text-blue-400" },
-        { icon: FaNodeJs, name: "Node", color: "text-blue-400" },
-        
+        { icon: SiExpress, name: "Express", color: "text-green-500" },
+        { icon: SiMongodb, name: "MongoDB", color: "text-green-600" },
+        { icon: FaNodeJs, name: "Node", color: "text-green-400" },
       ],
-      liveLink: "https://toggle-theme-mu.vercel.app/",
-      githubLink: "https://github.com/Tushardhongade/Toggle-Theme.git",
+      liveLink: "https://mern-authentication-frontend-nu.vercel.app/",
+      githubLink:
+        "https://github.com/Tushardhongade/MERN-Authentication-frontend.git",
     },
   ];
 
@@ -72,10 +72,19 @@ const ProjectCard = () => {
 
       {/* Compact Projects Grid */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-        {projects.map((project, index) => (
+        {projects.map((project) => (
           <Card
             key={project.id}
             className="group bg-[#070708] rounded-xl overflow-hidden border border-zinc-800 hover:border-[#18a995] transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-[#18a995]/10"
+            sx={{
+              backgroundColor: "#070708",
+              borderColor: "rgb(39 39 42)",
+              "&:hover": {
+                borderColor: "#18a995",
+                transform: "scale(1.05)",
+                boxShadow: "0 10px 25px rgba(24, 169, 149, 0.1)",
+              },
+            }}
           >
             {/* Project Image */}
             <div className="relative">
@@ -103,6 +112,11 @@ const ProjectCard = () => {
               <Typography
                 variant="h6"
                 className="text-white font-bold text-lg mb-2 line-clamp-1"
+                sx={{
+                  color: "white",
+                  fontWeight: "bold",
+                  fontSize: "1.125rem",
+                }}
               >
                 {project.title}
               </Typography>
@@ -111,6 +125,7 @@ const ProjectCard = () => {
               <Typography
                 variant="body2"
                 className="text-gray-300 text-sm mb-3 line-clamp-2 leading-relaxed"
+                sx={{ color: "rgb(209 213 219)", fontSize: "0.875rem" }}
               >
                 {project.description}
               </Typography>
@@ -135,8 +150,18 @@ const ProjectCard = () => {
                 href={project.githubLink}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex-1 bg-zinc-900 hover:bg-zinc-800 text-gray-300 text-xs border border-zinc-800 hover:border-[#18a995] transition-all duration-300"
-                startIcon={<FaGithub className="text-sm" />}
+                sx={{
+                  flex: 1,
+                  backgroundColor: "rgb(24 24 27)",
+                  color: "rgb(209 213 219)",
+                  border: "1px solid rgb(39 39 42)",
+                  fontSize: "0.75rem",
+                  "&:hover": {
+                    backgroundColor: "rgb(39 39 42)",
+                    borderColor: "#18a995",
+                  },
+                }}
+                startIcon={<FaGithub />}
               >
                 Code
               </Button>
@@ -145,8 +170,16 @@ const ProjectCard = () => {
                 href={project.liveLink}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex-1 bg-[#18a995] hover:bg-[#138a7a] text-white text-xs transition-all duration-300"
-                startIcon={<FaExternalLinkAlt className="text-sm" />}
+                sx={{
+                  flex: 1,
+                  backgroundColor: "#18a995",
+                  color: "white",
+                  fontSize: "0.75rem",
+                  "&:hover": {
+                    backgroundColor: "#138a7a",
+                  },
+                }}
+                startIcon={<FaExternalLinkAlt />}
               >
                 Demo
               </Button>
@@ -159,7 +192,18 @@ const ProjectCard = () => {
       <div className="text-center mt-8">
         <Button
           variant="outlined"
-          className="border-[#18a995] text-[#18a995] hover:bg-[#18a995] hover:text-white px-6 py-2 text-sm font-medium transition-all duration-300"
+          sx={{
+            borderColor: "#18a995",
+            color: "#18a995",
+            padding: "8px 24px",
+            fontSize: "0.875rem",
+            fontWeight: "500",
+            "&:hover": {
+              backgroundColor: "#18a995",
+              color: "white",
+              borderColor: "#18a995",
+            },
+          }}
           href="https://github.com/Tushardhongade"
           target="_blank"
           rel="noopener noreferrer"
