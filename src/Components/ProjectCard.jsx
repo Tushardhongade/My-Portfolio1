@@ -1,6 +1,7 @@
 import React from "react";
 import proj1 from "./Images/proj1.png";
 import proj2 from "./Images/proj2.png";
+import proj3 from "./Images/proj3.png";
 
 import Card from "@mui/material/Card";
 import CardActions from "@mui/material/CardActions";
@@ -8,8 +9,8 @@ import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
-import { FaGithub, FaExternalLinkAlt, FaReact } from "react-icons/fa";
-import { SiTailwindcss } from "react-icons/si";
+import { FaGithub, FaExternalLinkAlt, FaReact, FaNodeJs } from "react-icons/fa";
+import { SiTailwindcss, SiExpress, SiMongodb } from "react-icons/si";
 import { IoLogoHtml5, IoLogoCss3 } from "react-icons/io5";
 
 const ProjectCard = () => {
@@ -35,6 +36,22 @@ const ProjectCard = () => {
       technologies: [
         { icon: IoLogoHtml5, name: "HTML", color: "text-orange-500" },
         { icon: IoLogoCss3, name: "CSS", color: "text-blue-500" },
+      ],
+      liveLink: "https://toggle-theme-mu.vercel.app/",
+      githubLink: "https://github.com/Tushardhongade/Toggle-Theme.git",
+    },
+    {
+      id: 3,
+      title: "User Authentication",
+      description: "User Authentication with proper validation.",
+      image: proj3,
+      technologies: [
+        { icon: FaReact, name: "React", color: "text-blue-400" },
+        { icon: SiTailwindcss, name: "Tailwind", color: "text-cyan-400" },
+        { icon: SiExpress, name: "Express", color: "text-blue-400" },
+        { icon: SiMongodb, name: "MongoDB", color: "text-blue-400" },
+        { icon: FaNodeJs, name: "Node", color: "text-blue-400" },
+        
       ],
       liveLink: "https://toggle-theme-mu.vercel.app/",
       githubLink: "https://github.com/Tushardhongade/Toggle-Theme.git",
