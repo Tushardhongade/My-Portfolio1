@@ -34,7 +34,7 @@ function Home() {
                 </div>
               </a>
               <a
-                href="https://drive.google.com/file/d/1VQrjtw-GDZ-lhN3ffTIUfRGP4ZkeAgvQexport=download"
+                href="https://drive.google.com/file/d/1VQrjtw-GDZ-lhN3ffTIUfRGP4ZkeAgvQ&export=download"
                 className="w-full sm:w-auto"
               >
                 <div className="bg-[#18a995] p-3 lg:p-2 rounded-md cursor-pointer text-center hover:bg-teal-600 transition-colors duration-200 text-lg lg:text-base">
