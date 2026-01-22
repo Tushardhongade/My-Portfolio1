@@ -17,6 +17,38 @@ const ProjectCard = () => {
   const projects = [
     {
       id: 1,
+      title: "Full Stack Job Portal",
+      description:
+        "Job Portal is a job search app with listings and applications.",
+      image: proj1,
+      technologies: [
+        { icon: FaReact, name: "React", color: "text-blue-400" },
+        { icon: SiTailwindcss, name: "Tailwind", color: "text-cyan-400" },
+        { icon: SiExpress, name: "Express", color: "text-black" },
+        { icon: SiMongodb, name: "MongoDB", color: "text-green-600" },
+        { icon: FaNodeJs, name: "Node", color: "text-green-400" },
+      ],
+      liveLink: "https://job-portal-zeta-blond.vercel.app/",
+      githubLink: "https://github.com/Tushardhongade/Job-Portal.git",
+    },
+    {
+      id: 2,
+      title: "Full Stack Music App",
+      description:
+        "Music-App is a music player app with playlists and playback controls.",
+      image: proj1,
+      technologies: [
+        { icon: FaReact, name: "React", color: "text-blue-400" },
+        { icon: SiTailwindcss, name: "Tailwind", color: "text-cyan-400" },
+        { icon: SiExpress, name: "Express", color: "text-black" },
+        { icon: SiMongodb, name: "MongoDB", color: "text-green-600" },
+        { icon: FaNodeJs, name: "Node", color: "text-green-400" },
+      ],
+      liveLink: "https://music-app-gules-phi.vercel.app/",
+      githubLink: "https://github.com/Tushardhongade/Music_App_Backend.git",
+    },
+    {
+      id: 3,
       title: "Master Portfolio",
       description:
         "Modern portfolio with React & Tailwind CSS featuring smooth animations.",
@@ -29,7 +61,7 @@ const ProjectCard = () => {
       githubLink: "https://github.com/Tushardhongade/My-Portfolio1.git",
     },
     {
-      id: 2,
+      id: 4,
       title: "Toggle Theme",
       description: "Sleek theme switcher with smooth dark/light transitions.",
       image: proj2,
@@ -41,8 +73,8 @@ const ProjectCard = () => {
       githubLink: "https://github.com/Tushardhongade/Toggle-Theme.git",
     },
     {
-      id: 3,
-      title: "User Authentication",
+      id: 5,
+      title: "Full Stack User Authentication",
       description: "User Authentication with proper validation.",
       image: proj3,
       technologies: [
