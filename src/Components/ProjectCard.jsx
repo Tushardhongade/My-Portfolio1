@@ -1,4 +1,6 @@
 import React from "react";
+import proj5 from "./Images/job-portal.png";
+import proj4 from "./Images/music-app.png";
 import proj1 from "./Images/proj1.png";
 import proj2 from "./Images/proj2.png";
 import proj3 from "./Images/proj3.png";
@@ -20,7 +22,7 @@ const ProjectCard = () => {
       title: "Full Stack Job Portal",
       description:
         "Job Portal is a job search app with listings and applications.",
-      image: proj1,
+      image: proj5,
       technologies: [
         { icon: FaReact, name: "React", color: "text-blue-400" },
         { icon: SiTailwindcss, name: "Tailwind", color: "text-cyan-400" },
@@ -36,7 +38,7 @@ const ProjectCard = () => {
       title: "Full Stack Music App",
       description:
         "Music-App is a music player app with playlists and playback controls.",
-      image: proj1,
+      image: proj4,
       technologies: [
         { icon: FaReact, name: "React", color: "text-blue-400" },
         { icon: SiTailwindcss, name: "Tailwind", color: "text-cyan-400" },
