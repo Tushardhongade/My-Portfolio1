@@ -4,6 +4,7 @@ import certificate2 from "./Images/certificate2.png";
 import certificate3 from "./Images/certificate3.png";
 import certificate4 from "./Images/certificate4.png";
 import certificate5 from "./Images/certificate5.png";
+import certificate6 from "./Images/certificateinfosys.png";
 
 const Certification = () => {
   const [selectedCertificate, setSelectedCertificate] = useState(null);
@@ -43,6 +44,13 @@ const Certification = () => {
       link: "https://drive.google.com/drive/folders/1WhKYrHjEOr2KvWMrxLnPYns1zn2Dvw83",
       title: "Python101",
       platform: "IBM",
+    },
+    {
+      id: 6,
+      image: certificate6,
+      link: "https://drive.google.com/file/d/1tYea8dFUypoRu8x0CAsLOs0Qn2gB7Vuo/view?usp=sharing",
+      title: "Automatic street light [Centrado Kit]",
+      platform: "Infosys Springboard",
     },
   ];
 
