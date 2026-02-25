@@ -1,6 +1,10 @@
 import React from "react";
-import proj5 from "./Images/job-portal.png";
-import proj4 from "./Images/music-app.png";
+import jobportal from "./Images/job-portal.png";
+import musicapp from "./Images/music-app.png";
+import devblog from "./Images/devblog.png";
+import fos from "./Images/fos.png";
+import FilmFinderPro from "./Images/FilFinderPro.png";
+
 import proj1 from "./Images/proj1.png";
 import proj2 from "./Images/proj2.png";
 import proj3 from "./Images/proj3.png";
@@ -66,7 +70,7 @@ const ProjectCard = () => {
       id: 4,
       title: "Toggle Theme",
       description: "Sleek theme switcher with smooth dark/light transitions.",
-      image: proj2,
+      image: devblog,
       technologies: [
         { icon: IoLogoHtml5, name: "HTML", color: "text-orange-500" },
         { icon: IoLogoCss3, name: "CSS", color: "text-blue-500" },
@@ -88,6 +92,51 @@ const ProjectCard = () => {
       ],
       liveLink: "https://mern-authentication-frontend-nu.vercel.app/",
       githubLink: "https://github.com/Tushardhongade/MERN-Authentication-frontend.git",
+    },
+    {
+      id: 6,
+      title: "Blog Website",
+      description: "Built a scalable MERN stack blog platform implementing JWT authentication, dynamic routing, and MongoDB-based content management system.",
+      image: proj3,
+      technologies: [
+        { icon: FaReact, name: "React", color: "text-blue-400" },
+        { icon: SiTailwindcss, name: "Tailwind", color: "text-cyan-400" },
+        { icon: SiExpress, name: "Express", color: "text-black" },
+        { icon: SiMongodb, name: "MongoDB", color: "text-green-600" },
+        { icon: FaNodeJs, name: "Node", color: "text-green-400" },
+      ],
+      liveLink: "https://dev-blogs-xd86.vercel.app",
+      githubLink: "https://github.com/TushGD/DevBlogs.git",
+    },
+    {
+      id: 7,
+      title: "Food Ordering System",
+      description: "Built a full-stack application with user authentication, dynamic menu management, cart functionality, order tracking, and secure RESTful API integration using MongoDB, Express.js, React, and Node.js.",
+      image: fos,
+      technologies: [
+        { icon: FaReact, name: "React", color: "text-blue-400" },
+        { icon: SiTailwindcss, name: "Tailwind", color: "text-cyan-400" },
+        { icon: SiExpress, name: "Express", color: "text-black" },
+        { icon: SiMongodb, name: "MongoDB", color: "text-green-600" },
+        { icon: FaNodeJs, name: "Node", color: "text-green-400" },
+      ],
+      liveLink: "https://food-ordering-system-k7gg.vercel.app",
+      githubLink: "https://github.com/TushGD/Food-ordering-system",
+    },
+    {
+      id: 8,
+      title: "FilmFinderPro",
+      description: "A dynamic movie discovery SPA built with React that integrates OMDB API for real-time search, features persistent favorites using localStorage, and delivers a responsive interface with custom animations and toast notifications.",
+      image: FilmFinderPro,
+      technologies: [
+        { icon: FaReact, name: "React", color: "text-blue-400" },
+        { icon: SiTailwindcss, name: "Tailwind", color: "text-cyan-400" },
+        { icon: SiExpress, name: "Express", color: "text-black" },
+        { icon: SiMongodb, name: "MongoDB", color: "text-green-600" },
+        { icon: FaNodeJs, name: "Node", color: "text-green-400" },
+      ],
+      liveLink: "https://filmfinderpro.vercel.app",
+      githubLink: "https://github.com/TushGD/Task-Assigned.git",
     },
   ];
 
