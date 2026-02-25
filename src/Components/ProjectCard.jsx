@@ -5,6 +5,7 @@ import devblog from "./Images/devblog.png";
 import fos from "./Images/fos.png";
 import FilmFinder from "./Images/FilmFInderPro.png";
 import proj1 from "./Images/proj1.png";
+import proj2 from "./Images/proj2.png";
 import proj3 from "./Images/proj3.png";
 
 import Card from "@mui/material/Card";
@@ -65,7 +66,7 @@ const ProjectCard = () => {
       id: 4,
       title: "Toggle Theme",
       description: "Sleek theme switcher with smooth dark/light transitions.",
-      image: devblog,
+      image: proj2,
       technologies: [
         { icon: IoLogoHtml5, name: "HTML", color: "text-orange-500" },
         { icon: IoLogoCss3, name: "CSS", color: "text-blue-500" },
