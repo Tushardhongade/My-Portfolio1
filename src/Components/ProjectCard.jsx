@@ -3,7 +3,7 @@ import jobportal from "./Images/job-portal.png";
 import musicapp from "./Images/music-app.png";
 import devblog from "./Images/devblog.png";
 import fos from "./Images/fos.png";
-import FilmFinderPro from "./Images/FilmFinderPro.png";
+import FilmFinder from "./Images/FilmFinderPro.png";
 import proj1 from "./Images/proj1.png";
 import proj3 from "./Images/proj3.png";
 
@@ -23,7 +23,7 @@ const ProjectCard = () => {
       id: 1,
       title: "FilmFinderPro",
       description: "A dynamic movie discovery SPA built with React that integrates OMDB API for real-time search, features persistent favorites using localStorage, and delivers a responsive interface with custom animations and toast notifications.",
-      image: FilmFinderPro,
+      image: FilmFinder,
       technologies: [
         { icon: FaReact, name: "React", color: "text-blue-400" },
         { icon: SiTailwindcss, name: "Tailwind", color: "text-cyan-400" },
