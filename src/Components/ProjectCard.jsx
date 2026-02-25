@@ -70,7 +70,7 @@ const ProjectCard = () => {
       id: 4,
       title: "Toggle Theme",
       description: "Sleek theme switcher with smooth dark/light transitions.",
-      image: devblog,
+      image: proj3,
       technologies: [
         { icon: IoLogoHtml5, name: "HTML", color: "text-orange-500" },
         { icon: IoLogoCss3, name: "CSS", color: "text-blue-500" },
@@ -97,7 +97,7 @@ const ProjectCard = () => {
       id: 6,
       title: "Blog Website",
       description: "Built a scalable MERN stack blog platform implementing JWT authentication, dynamic routing, and MongoDB-based content management system.",
-      image: proj3,
+      image: devblog,
       technologies: [
         { icon: FaReact, name: "React", color: "text-blue-400" },
         { icon: SiTailwindcss, name: "Tailwind", color: "text-cyan-400" },
