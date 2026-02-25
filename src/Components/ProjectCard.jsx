@@ -26,7 +26,7 @@ const ProjectCard = () => {
       title: "Full Stack Job Portal",
       description:
         "Job Portal is a job search app with listings and applications.",
-      image: proj5,
+      image: jobportal,
       technologies: [
         { icon: FaReact, name: "React", color: "text-blue-400" },
         { icon: SiTailwindcss, name: "Tailwind", color: "text-cyan-400" },
@@ -42,7 +42,7 @@ const ProjectCard = () => {
       title: "Full Stack Music App",
       description:
         "Music-App is a music player app with playlists and playback controls.",
-      image: proj4,
+      image: musicapp,
       technologies: [
         { icon: FaReact, name: "React", color: "text-blue-400" },
         { icon: SiTailwindcss, name: "Tailwind", color: "text-cyan-400" },
