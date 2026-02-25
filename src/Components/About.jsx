@@ -43,12 +43,12 @@ function About() {
               <p className="text-lg sm:text-xl text-gray-300 leading-relaxed text-center lg:text-left">
                 I'm a{" "}
                 <span className="text-teal-400 font-semibold">
-                  Web Developer & Designer
+                  Full Stack Web Developer & Designer
                 </span>
-                . As a passionate and detail-oriented developer, I'm excited to
-                bring my skills and enthusiasm to the tech industry. With a
-                strong foundation in modern web technologies, I specialize in
-                creating visually appealing and user-friendly web applications.
+                . As a passionate and Detail-oriented Full Stack Developer with hands-on experience in MERN stack development 
+                (MongoDB, Express.js, React.js, Node.js). Currently working as a React.js Developer Intern with
+                experience in building responsive web applications, RESTful API integration, and performance
+                optimization. Strong foundation in JavaScript and modern web development practices.
               </p>
             </div>
 
