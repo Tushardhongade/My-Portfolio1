@@ -21,20 +21,17 @@ const ProjectCard = () => {
   const projects = [
     {
       id: 1,
-      title: "Full Stack Job Portal",
-      description:
-        "Job Portal is a job search app with listings and applications.",
-      image: jobportal,
+      title: "FilmFinderPro",
+      description: "A dynamic movie discovery SPA built with React that integrates OMDB API for real-time search, features persistent favorites using localStorage, and delivers a responsive interface with custom animations and toast notifications.",
+      image: FilmFinderPro,
       technologies: [
         { icon: FaReact, name: "React", color: "text-blue-400" },
         { icon: SiTailwindcss, name: "Tailwind", color: "text-cyan-400" },
-        { icon: SiExpress, name: "Express", color: "text-black" },
-        { icon: SiMongodb, name: "MongoDB", color: "text-green-600" },
-        { icon: FaNodeJs, name: "Node", color: "text-green-400" },
       ],
-      liveLink: "https://job-portal-zeta-blond.vercel.app/",
-      githubLink: "https://github.com/Tushardhongade/Job-Portal.git",
+      liveLink: "https://filmfinderpro.vercel.app",
+      githubLink: "https://github.com/TushGD/Task-Assigned.git",
     },
+    
     {
       id: 2,
       title: "Full Stack Music App",
@@ -123,15 +120,19 @@ const ProjectCard = () => {
     },
     {
       id: 8,
-      title: "FilmFinderPro",
-      description: "A dynamic movie discovery SPA built with React that integrates OMDB API for real-time search, features persistent favorites using localStorage, and delivers a responsive interface with custom animations and toast notifications.",
-      image: FilmFinderPro,
+      title: "Full Stack Job Portal",
+      description:
+        "Job Portal is a job search app with listings and applications.",
+      image: jobportal,
       technologies: [
         { icon: FaReact, name: "React", color: "text-blue-400" },
         { icon: SiTailwindcss, name: "Tailwind", color: "text-cyan-400" },
+        { icon: SiExpress, name: "Express", color: "text-black" },
+        { icon: SiMongodb, name: "MongoDB", color: "text-green-600" },
+        { icon: FaNodeJs, name: "Node", color: "text-green-400" },
       ],
-      liveLink: "https://filmfinderpro.vercel.app",
-      githubLink: "https://github.com/TushGD/Task-Assigned.git",
+      liveLink: "https://job-portal-zeta-blond.vercel.app/",
+      githubLink: "https://github.com/Tushardhongade/Job-Portal.git",
     },
   ];
 
