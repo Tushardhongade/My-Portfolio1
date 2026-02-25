@@ -3,7 +3,7 @@ import jobportal from "./Images/job-portal.png";
 import musicapp from "./Images/music-app.png";
 import devblog from "./Images/devblog.png";
 import fos from "./Images/fos.png";
-import FilmFinderPro from "./Images/FilFinderPro.png";
+import FilmFinderPro from "./Images/FilmFinderPro.png";
 
 import proj1 from "./Images/proj1.png";
 import proj2 from "./Images/proj2.png";
