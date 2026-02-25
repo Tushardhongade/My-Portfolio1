@@ -70,7 +70,7 @@ const ProjectCard = () => {
       id: 4,
       title: "Toggle Theme",
       description: "Sleek theme switcher with smooth dark/light transitions.",
-      image: proj3,
+      image: proj2,
       technologies: [
         { icon: IoLogoHtml5, name: "HTML", color: "text-orange-500" },
         { icon: IoLogoCss3, name: "CSS", color: "text-blue-500" },
