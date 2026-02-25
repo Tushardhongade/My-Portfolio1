@@ -4,9 +4,7 @@ import musicapp from "./Images/music-app.png";
 import devblog from "./Images/devblog.png";
 import fos from "./Images/fos.png";
 import FilmFinderPro from "./Images/FilmFinderPro.png";
-
 import proj1 from "./Images/proj1.png";
-import proj2 from "./Images/proj2.png";
 import proj3 from "./Images/proj3.png";
 
 import Card from "@mui/material/Card";
@@ -70,7 +68,7 @@ const ProjectCard = () => {
       id: 4,
       title: "Toggle Theme",
       description: "Sleek theme switcher with smooth dark/light transitions.",
-      image: proj2,
+      image: devblog,
       technologies: [
         { icon: IoLogoHtml5, name: "HTML", color: "text-orange-500" },
         { icon: IoLogoCss3, name: "CSS", color: "text-blue-500" },
@@ -131,9 +129,6 @@ const ProjectCard = () => {
       technologies: [
         { icon: FaReact, name: "React", color: "text-blue-400" },
         { icon: SiTailwindcss, name: "Tailwind", color: "text-cyan-400" },
-        { icon: SiExpress, name: "Express", color: "text-black" },
-        { icon: SiMongodb, name: "MongoDB", color: "text-green-600" },
-        { icon: FaNodeJs, name: "Node", color: "text-green-400" },
       ],
       liveLink: "https://filmfinderpro.vercel.app",
       githubLink: "https://github.com/TushGD/Task-Assigned.git",
@@ -142,7 +137,6 @@ const ProjectCard = () => {
 
   return (
     <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 lg:py-12">
-      {/* Header Section */}
       <div className="text-center mb-12">
         <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-4">
           Featured <span className="text-[#18a995]">Projects</span>
@@ -152,7 +146,6 @@ const ProjectCard = () => {
         </p>
       </div>
 
-      {/* Compact Projects Grid */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {projects.map((project) => (
           <Card
@@ -168,7 +161,6 @@ const ProjectCard = () => {
               }
             }}
           >
-            {/* Project Image */}
             <div className="relative">
               <CardMedia
                 component="img"
@@ -190,7 +182,6 @@ const ProjectCard = () => {
             </div>
 
             <CardContent className="p-4 bg-[#070708]">
-              {/* Project Title */}
               <Typography
                 variant="h6"
                 className="text-white font-bold text-lg mb-2 line-clamp-1"
@@ -199,7 +190,6 @@ const ProjectCard = () => {
                 {project.title}
               </Typography>
 
-              {/* Project Description */}
               <Typography
                 variant="body2"
                 className="text-gray-300 text-sm mb-3 line-clamp-2 leading-relaxed"
@@ -208,7 +198,6 @@ const ProjectCard = () => {
                 {project.description}
               </Typography>
 
-              {/* Technologies */}
               <div className="flex flex-wrap gap-1 mb-3">
                 {project.technologies.map((tech, techIndex) => (
                   <div
@@ -266,7 +255,6 @@ const ProjectCard = () => {
         ))}
       </div>
 
-      {/* Compact View More Button */}
       <div className="text-center mt-8">
         <Button
           variant="outlined"
