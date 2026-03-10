@@ -1,10 +1,9 @@
 import React, { useState } from "react";
-import certificate1 from "./Images/Certificate1.png";
 import certificate2 from "./Images/certificate2.png";
-import certificate3 from "./Images/certificate3.png";
 import certificate4 from "./Images/certificate4.png";
 import certificate5 from "./Images/certificate5.png";
 import certificate6 from "./Images/certificateinfosys.png";
+import fswd from "./Images/fswd.png";
 
 const Certification = () => {
   const [selectedCertificate, setSelectedCertificate] = useState(null);
@@ -12,17 +11,17 @@ const Certification = () => {
   const certificates = [
     {
       id: 1,
+      image: fswd,
+      link: "https://drive.google.com/file/d/1NpUftc6GS6pD_3Pg5dlmr3Dwpo4aizR4/view?usp=sharing",
+      title: "Full Stack Development",
+      platform: "SimpliLearn",
+    },
+    {
+      id: 2,
       image: certificate2,
       link: "https://drive.google.com/file/d/1izF7QLQ94vwtxmXt75mmuHd1lbrohYqt/view?usp=sharing",
       title: "React.js Completion Certificate",
       platform: "Great Learning",
-    },
-    {
-      id: 2,
-      image: certificate3,
-      link: "https://drive.google.com/file/d/1Xi3AjKImzBMMcclE0v-8Qbnvavd38KAQ/view?usp=sharing",
-      title: "Interactive Photo Album",
-      platform: "Geekster",
     },
     {
       id: 3,
@@ -31,22 +30,15 @@ const Certification = () => {
       title: "Python",
       platform: "Geekster",
     },
-    {
+        {
       id: 4,
-      image: certificate1,
-      link: "https://drive.google.com/file/d/178GIDo8Jl_8dGLwVspe8yJRhJVgiw8DR/view?usp=sharing",
-      title: "Responsive landing page",
-      platform: "Geekster",
-    },
-    {
-      id: 5,
       image: certificate5,
       link: "https://drive.google.com/file/d/1PrLt8I4tf-zLGUODue3cNvPvNYkUQ8wx/view?usp=sharing",
-      title: "Python101",
+      title: "Python101- Data Science",
       platform: "IBM",
     },
     {
-      id: 6,
+      id: 5,
       image: certificate6,
       link: "https://drive.google.com/file/d/1tYea8dFUypoRu8x0CAsLOs0Qn2gB7Vuo/view?usp=sharing",
       title: "Automatic street light [Centrado Kit]",
